@@ -9,11 +9,11 @@ int main(int arg, char* argc[]){
   double* d;
   char** e;
 
-  printf("int a = %d\n", sizeof(a));
-  printf("int* b = %p\n", sizeof(b));
-  printf("long c = %lld\n", sizeof(c));
-  printf("double* d = %p\n", sizeof(d));
-  printf("char** e = %p\n", sizeof(e));
+  printf("int a = %lu\n", sizeof(a));
+  printf("int* b = %lu\n", sizeof(b));
+  printf("long c = %lu\n", sizeof(c));
+  printf("double* d = %lu\n", sizeof(d));
+  printf("char** e = %lu\n", sizeof(e));
 
   return 0;
 }
